@@ -1,0 +1,6 @@
+git+https://github.com/rcmalli/keras-vggface.git
+tensorflow==2.15
+keras_applications
+keras==2.12
+mtcnn
+google.colab
