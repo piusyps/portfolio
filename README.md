@@ -2,7 +2,7 @@
 
 ## 🌟  About Me
 
-* Skilled in both financial analysis and data science, I am a Chartered Accountant (CA) of Singapore proficient in Python, machine learning, and SQL."
+* Skilled in both financial analysis and data science, I am a Chartered Accountant (CA) of Singapore proficient in Python, machine learning, and SQL.
 * With nearly 10 years of finance and accounting experience, including deep business analysis expertise, I'm upskilling in data science to expand my analytical capabilities and enhance my performance.
 * Let's connect on LinkedIn: https://www.linkedin.com/in/piusyee/
 
@@ -55,7 +55,7 @@
 
     * **Link to project:** https://github.com/piusyps/portfolio/tree/main/project_2
      
-        (Prediction result submitted to Kaggle challenge:)
+        (Predicted result submitted to Kaggle challenge:)
     <center>
     <img src="project_2/img/submission.png" width="400" height="250" alt="models"> 
     </center>
