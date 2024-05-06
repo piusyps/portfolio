@@ -60,27 +60,40 @@ How can we utilize facial recognition technology to provide additional security 
 
 Models used for tuning and selection
 
-- `Gender Classification Model`: VGGFace (Best accuracy score: 0.93)
-- `Race Classification Model`: VGGFace (Best accuracy score: 0.84)
-- `Age Classification Model`: VGGFace (Best sensitivity score: 0.63)
+- `Gender Classification Model`: VGGFace Pre-trained model (Best accuracy score: 0.93)
+- `Race Classification Model`: VGGFace Pre-trained model (Best accuracy score: 0.84)
+- `Age Classification Model`: VGGFace Pre-trained model (Best sensitivity score: 0.63)
 
 ---
 
 ## Limitations
 
-- `Age model`: The model's performance is limited, with an accuracy of only 0.6. This is primarily due to the inherent difficulty of accurately determining age from facial features alone.  Age perception is subjective, as individuals can appear significantly older or younger than their chronological age, making it a challenging task for the model.
+- `Age model`: 
+    - The model has limited accuracy (0.6) when trying to determine age from facial features. 
+    - This is because judging age from appearance alone is difficult and subjective, as people can look much younger or older than their actual age.
+    
+- `Gender and Race model`: 
+    - Despite good performance in gender and race prediction, the model might be inaccurate due to limitations of facial features. 
+    - Just like age, appearance can vary significantly from a person's actual gender and race.
 
-- `Gender and Race model`: While the model performs well in classifying gender and race, there's a potential risk of inaccurate predictions for both categories based on facial features alone. Similar to age estimation, facial appearance can differ significantly from a person's actual gender and race.
+ - `Face Detection model`:
+    - The model cannot detect faces with face masks on.
 
 ---
 
 ## Recommendations
 
-Given the limitations outlined above, banks may need to maintain additional customer data to align with the demographic appearance rather than the actual demographic in the customer profile. For instance, if a 30-year-old customer appears to be 20 years old, the system should be capable of recognizing them as having an appearance age of 20 years old after several detections. This approach would address the issue of appearance not matching the customer's actual profile.
+- Appearance age
+    - Due to the difference between appearance and actual demographics, banks might need to store additional data about a customer's perceived appearance.
+    - In cases like a 30-year-old customer consistently appearing like a 20-year-old, the system should adapt to recognize their "appearance age".
+    - This solves the problem of profiles mismatching a customer's visual presentation.
+
+- Banks may consider mandatory mask removal for cash withdrawals at ATMs.
 
 ---
 
 ## Conclusion
 
-The models effectively tackle the problem statement by enhancing ATM security. They assist in identifying suspicious cash withdrawals through face detection, where the individual withdrawing cash does not match the cardholder's profile. This introduces an additional layer of security for ATM customers, instilling greater trust and confidence in the bank's ATM services.
+- The models effectively tackle the problem statement by enhancing ATM security.
+- The models improve ATM security by using face detection to flag suspicious withdrawals where the person doesn't match the cardholder. This builds customer trust in the bank's ATMs.
 
