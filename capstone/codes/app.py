@@ -17,13 +17,10 @@ from PIL import Image
 
 from mtcnn import MTCNN
 
-# path in Google Drive
-drive_path = "" #"/content/drive/MyDrive/Colab Notebooks/capstone/codes"
-
 # Load models
-age_model = tf.keras.models.load_model("/Users/piusyee/GA/personal/projects/capstone/models/model_age.keras")
-gender_model = tf.keras.models.load_model("/Users/piusyee/GA/personal/projects/capstone/models/model_gender.keras")
-race_model = tf.keras.models.load_model("/Users/piusyee/GA/personal/projects/capstone/models/model_race.keras")
+age_model = tf.keras.models.load_model("../models/model_age.keras")
+gender_model = tf.keras.models.load_model("../models/model_gender.keras")
+race_model = tf.keras.models.load_model("../models/model_race.keras")
 
 # Define functions for gender, age and race models
 def predict_gender(face_image):
@@ -49,7 +46,7 @@ def race_class(x):
     for bucket, num in race_classes.items():
         if x == num: return bucket
 
-# Initialize video capture (0 for webcam, or provide video file path)
+# Initialize video capture (0 for webcam)
 cap = cv2.VideoCapture(0) 
 
 # Initialize MTCNN Detector
