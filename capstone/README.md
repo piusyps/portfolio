@@ -99,7 +99,7 @@ Models used for tuning and selection
 
 ## Directories/files
 ### codes
-- `1.0_data_cleaning_eda.ipynb`: Data cleaning and EDA
+- `1.0_data_preprocessing_eda.ipynb`: Data pre-processing and EDA
 - `2.0_Modelling_gender.ipynb`: Modelling for Gender
 - `2.1_Modelling_race.ipynb`: Modelling for Race
 - `2.2_ Modelling_age.ipynb`: Modelling for Age
