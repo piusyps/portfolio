@@ -97,3 +97,29 @@ Models used for tuning and selection
 - The models effectively tackle the problem statement by enhancing ATM security.
 - The models improve ATM security by using face detection to flag suspicious withdrawals where the person doesn't match the cardholder. This builds customer trust in the bank's ATMs.
 
+## Directories/files
+### codes
+- `1.0_data_cleaning_eda.ipynb`: Data cleaning and EDA
+- `2.0_Modelling_gender.ipynb`: Modelling for Gender
+- `2.1_Modelling_race.ipynb`: Modelling for Race
+- `2.2_ Modelling_age.ipynb`: Modelling for Age
+- `3.0_Face_detection_with_prediction.ipynb`: Modelling for face detection
+- `app.py`: Using Face Detection with webcam
+- `requirements.txt`: listing the external Python libraries to run the project
+
+### datasets
+- `utkface`: The image dataset to train the models
+- `df_main.csv`: Dataframe consists of the info about UTKface dataset (i.e. gender, race, age etc)
+- `image and video files`: the input test data for face detection. The output files are saved in directory _"output_files"_
+
+### models
+- `model_age.keras`: trained keras file for age 
+- `model_gender.keras`: trained keras file for gender
+- `model_race.keras`: trained keras file for race
+
+### output_files
+- output files saved from the face detection model
+
+### presentation
+- `capstone_slides.pptx`: presentation slide (ppt format)
+- `capstone_slides.pdf`: presentation slide (pdf format)
