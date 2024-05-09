@@ -90,6 +90,8 @@ Models used for tuning and selection
 
 - Banks may consider mandatory mask removal for cash withdrawals at ATMs.
 
+- Consider finding additional datasets to balance the training data for age and race.
+
 ---
 
 ## Conclusion
