@@ -39,7 +39,8 @@ In order to do this, I will construct three models to detect demographics from f
 
 ## Problem Statement
 
-How can we utilize facial recognition technology to provide additional security for bank customers?
+How can we utilize profiling using computer vision to provide additional security for bank customers?
+
 
 ---
 
@@ -69,7 +70,7 @@ Models used for tuning and selection
 ## Limitations
 
 - `Age model`: 
-    - The model has limited accuracy (0.6) when trying to determine age from facial features. 
+    - The model has limited accuracy (0.63) when trying to determine age from facial features. 
     - This is because judging age from appearance alone is difficult and subjective, as people can look much younger or older than their actual age.
     
 - `Gender and Race model`: 
