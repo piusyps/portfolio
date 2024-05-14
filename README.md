@@ -17,7 +17,7 @@
 
     * **Link to project:** https://github.com/piusyps/portfolio/tree/main/capstone
     <center>
-    <img src="capstone/output_video/gif/vid_4.gif" width="250" height="400" alt="Resized GIF"> 
+    <img src="capstone/output_files/gif/vid_4.gif" width="250" height="400" alt="Resized GIF"> 
     </center>
 
 * **[Project 4: Obesity and Stroke Model with CT Brain Scan](https://github.com/piusyps/portfolio/tree/main/project_4)**
